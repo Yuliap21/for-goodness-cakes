@@ -1,7 +1,7 @@
 const User = require('../models/user');
 const userRouter = require('express').Router();
 
-
+// create route is in server.js
 // create route is in server.js
 
 // Read (Show)
