@@ -6,6 +6,7 @@ const User = require('../models/user')
 const SECRET = process.env.SECRET;
 
 // Hashing function
+// Hashing function
 const hash = (password) => {
   const levelOne = crypto.createHmac('sha256', process.env.SECRET)
               .update(password)
